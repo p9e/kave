@@ -1,0 +1,60 @@
+  [hidden] { display: none !important }
+
+  /* N.E.R.D. ÷ MCR ≈ s9a.page/tape */
+  .mold { font: unset }
+  .bold { font-weight: bold }
+  .moan { margin: auto }
+  .moby { margin-bottom: 6vh }
+  .nemo { margin-bottom: 9vh }
+  .paz { padding: 0 }
+  .pad { padding: 1rem; box-sizing: border-box }
+  .party { display: block }
+  .parlay { display: table }
+  .fiesta { display: flex; flex-wrap: wrap }
+  .trio { flex-basis: calc(100% / 3) }
+  .duet { flex-basis: 50% }
+  .dot::after { content: "." }
+  .mime { margin-inline: 1rem }
+  .rime { text-align: end }
+/*  .bass { border-radius: 0% }*/
+/*  .bess { border-radius: 20% }*/
+/*  .buss { border-radius: 30% }*/
+  .roar { font-size: 1.618em }
+  
+  dt { font-size: 1.618em }
+  dt, dd { margin: 0 0 2vh }
+  h1  {  float: left; text-indent: 5vw }
+  @media (orientation: portrait) {
+    .roam { writing-mode: vertical-rl } 
+    h1 { text-indent: 20vh }
+  }
+
+  * { box-sizing: border-box }
+  html { font: max(22px, 2vmax + 1vmin)/1.618 sans-serif }
+  samp { font-weight: 500 }
+  cite { font: unset }
+  header em { font-weight: 600; font-style: unset }
+  html { border-bottom: 9vh double var(--tape-watt) }
+  body { margin: auto; overflow-wrap:anywhere }
+  figure { margin: auto; contain: layout }
+  h1 { font-size: 2.618rem  }
+  ul { }
+  a { 
+    display: inline-flex;
+  }
+  dl { 
+    flex-basis: calc(100% / 3);
+    display: table;
+    margin: 0;
+    padding: 3vh 3vw;
+  }
+  :any-link { text-decoration-style: underline }
+  :focus { 
+    outline: thick dotted;
+    text-decoration-style: dotted;
+  }
+  :hover { text-decoration-style: double }
+  ::selection {
+    color: seashell;
+    background: blueviolet;
+  }

@@ -32,115 +32,20 @@
   }
 </style>
 
-<style>
-  [hidden] { display: none !important }
-  
-  /* N.E.R.D. ÷ MCR ≈ s9a.page/tape */
-  .mold { font: unset }
-  .bold { font-weight: bold }
-  .moan { margin: auto }
-  .moby { margin-bottom: 6vh }
-  .nemo { margin-bottom: 9vh }
-  .paz { padding: 0 }
-  .pad { padding: 1rem; box-sizing: border-box }
-  .party { display: block }
-  .parlay { display: table }
-  .fiesta { display: flex; flex-wrap: wrap }
-  .trio { flex-basis: calc(100% / 3) }
-  .duet { flex-basis: 50% }
-  .dot::after { content: "." }
-  .mime { margin-inline: 1rem }
-  .rime { text-align: end }
-/*  .bass { border-radius: 0% }*/
-/*  .bess { border-radius: 20% }*/
-/*  .buss { border-radius: 30% }*/
-  .roar { font-size: 1.618em }
-  
-  dt { font-size: 1.618em }
-  dt, dd { margin: 0 0 2vh }
-  h1  {  float: left; text-indent: 5vw }
-  @media (orientation: portrait) {
-    .roam { writing-mode: vertical-rl } 
-    h1 { text-indent: 20vh }
-  }
+<link rel="stylesheet" href="nerd.css">
 
-  * { box-sizing: border-box }
-  html { font: max(22px, 2vmax + 1vmin)/1.618 sans-serif }
-  samp { font-weight: 500 }
-  cite { font: unset }
-  header em { font-weight: 600; font-style: unset }
-  html { border-bottom: 9vh double var(--tape-watt) }
-  body { margin: auto; overflow-wrap:anywhere }
-  input { font: unset; display: table; max-width: 100% }
-  button { font: unset }
-  figure { margin: auto; contain: layout }
-  h1 { font-size: 2.618rem  }
-  ul { padding: 0; text-align: end }
-  li { 
-    list-style: none;
-    padding: 1vh 1vw;
-    margin-left: auto;
-  }
-  a { 
-    display: inline-flex;
-    padding-inline: 3vh;
-  }
-  dl { 
-    flex-basis: calc(100% / 3);
-    display: table;
-    margin: 0;
-    padding: 3vh 3vw;
-  }
-  :any-link { text-decoration-style: underline }
-  :focus { 
-    outline: thick dotted;
-    text-decoration-style: dotted;
-  }
-  :hover { text-decoration-style: double }
-  ::selection {
-    color: seashell;
-    background: blueviolet;
-  }
-
-  .ear {
-    --tape-remix: linear-gradient(.3turn,
-      var(--tape-watt),
-      var(--tape-play),
-      var(--tape-loud),
-      var(--tape-luvu),
-      var(--tape-blaq),
-      var(--tape-bluv)
-    );
-  }
-  .oni {
-    --tape-remix: conic-gradient(
-      var(--tape-watt),
-      var(--tape-play),
-      var(--tape-loud),
-      var(--tape-luvu),
-      darkviolet,
-      var(--tape-bluv),
-      darkviolet
-    );
-  }
-  
-  #1, #4, #7, #10 { --tape-filter:hue-rotate(0deg) }
-  #2, #5, #8, #11 { --tape-filter:hue-rotate(36deg) }
-  #3, #6, #9, #12 { --tape-filter:hue-rotate(-36deg) }
-</style>
-
-<header hidden class="pad">
+<header class="pad">
   <h1 class="roam">
-    <a class="sea-blood sea-gush" href="https://s9a.page/tape">
-      <abbr>kave</abbr>
+    <a class="sea-blood sea-gush" href="https://p9e.page/kave">
+      kave
     </a>
   </h1>
   <ul>
     <li class="parlay tape-watt">
-    <a href="https://webmural.com/mpf#20">eagle</a>
-    <li class="parlay tape-watt">28º ri̊<em>si̊ng</em>
-    <li class="parlay tape-watt">for<em>tune</em> 
-    <li class="parlay tape-loud">summer<br>10:52<b>am</b>
+    <a class="tape-bluv" href="https://webmural.com/mpf#20">eagle</a>
+    <li class="parlay tape-luvu">28º rising
+    <li class="parlay tape-loud">28º <a href="https://webmural.com/mc">midheaven</a>
+    <li class="parlay tape-loud" style="--tape-hex:coral">summer<br>10:52<b>am</b>
   </ul>
 </header>
 
@@ -206,16 +111,26 @@
   </dl>
 </section>
 
-<section class="nemo tape-blaq" aria-label="coming swoon">
-  <h2>notes</h2>
+<section class="fiesta" aria-label="aspects">
+  <h2>FEAT.</h2>
   <ul>
-    <li>grand water trine (sun, moon, lilith)
-    <li>
+    <li><a href="https://webmural.com/dm">mercury</a> ruled
+    <li class="tape-bluv">cancer stellium (mars mercury sun)
+    <li class="tape-bluv">grand water trine (sun lilith moon)
+    <li class="tape-watt">pisces moon square sagittarius neptune (mystically <a href="https://webmural.com/mode">mutable</a>)
+    <li class="tape-watt">pisces moon <a href="https://webmural.com/septile">septile</a> leo venus
+    <li class="tape-loud">libra stellium (jupiter saturn pluto)
+    <li class="tape-play">sun trine leo north node
+    <li class="tape-watt">mars on midheaven
+    <li class="tape-watt">scorpio lilith enhances uranus
+    <li class="tape-watt">libra enhances venus saturn
+    <li class="tape-watt">cancer enhances moon jupiter
+    <li class="tape-watt">pisces enhances venus jupiter neptune
+    <li><a href="https://s9a.page/orb" class="tape-loud">what degree helps you most?</a>
   </ul>
 </section>
 
-<footer class="nemo roar fiesta"
-  style="--tape-play:hotpink;--tape-loud:salmon">
+<footer class="nemo roar fiesta" hidden>
   <a class="tape-play" href="https://s9a.page">s9a</a>
   <a class="tape-watt" href="https://octopus.boo">✸</a>
   <a class="tape-loud" href="https://p9e.page">p9e</a>
