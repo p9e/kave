@@ -35,10 +35,20 @@
   cite { font: unset }
   header em { font-weight: 600; font-style: unset }
   html { border-bottom: 9vh double var(--tape-watt) }
-  body { margin: auto; overflow-wrap:anywhere }
+  body { 
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    overflow-wrap:anywhere;
+  }
   figure { margin: auto; contain: layout }
   h1 { font-size: 2.618rem  }
-  ul { }
+  header ul { text-align: end }
+  header li { 
+    list-style: none;
+    padding: 1vh 1vw;
+    margin-left: auto;
+  }
   a { 
     display: inline-flex;
   }
